@@ -50,3 +50,6 @@ int n = Convert.ToInt32(Console.ReadLine());
 string[] myArray = CreateArray(n);
 // ShowArray(myArray);
 CheckFor3Symb(myArray);
+if (CheckFor3Symb(myArray) ==  myArray)
+Console.WriteLine("Указанные вами строки не содержат искомых элементов меньше четёрых символов");
+else ShowArray(CheckFor3Symb(myArray));
