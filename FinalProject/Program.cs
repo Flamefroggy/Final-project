@@ -6,13 +6,8 @@ string[] CreateArray(int number)
     for (int i = 0; i<number; i++)
     {
         if (i%10 == 2 && i % 100 != 12)
-        {
             Console.Write($"Введите {i+1}-ье слово: "); 
-        }
-        else
-        {
-            Console.Write($"Введите {i+1}-ое слово: ");
-        }
+        else Console.Write($"Введите {i+1}-ое слово: ");
         startArray[i] = Console.ReadLine();
             
     }
@@ -33,9 +28,7 @@ string[] CheckFor3Symb(string[] array)
     for (int i = 0; i<array.Length; i++)
         if (array[i].Length <= 3) count++;
     if (count == 0)
-    {
         return array;
-    }
     else
     {
         string [] newArray = new string [count];
@@ -49,9 +42,11 @@ string[] CheckFor3Symb(string[] array)
             }
         }
         return newArray; 
-    }
-    
+    }  
 }
 
 Console.Write("Введите натуральное число, обозначающее количество слов, которые Вы введёте: ");
 int n = Convert.ToInt32(Console.ReadLine());
+string[] myArray = CreateArray(n);
+// ShowArray(myArray);
+CheckFor3Symb(myArray);
