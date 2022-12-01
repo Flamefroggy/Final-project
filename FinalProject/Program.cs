@@ -27,5 +27,31 @@ void ShowArray(string[] array)
     Console.WriteLine();
 }
 
+string[] CheckFor3Symb(string[] array)
+{
+    int count = 0;
+    for (int i = 0; i<array.Length; i++)
+        if (array[i].Length <= 3) count++;
+    if (count == 0)
+    {
+        return array;
+    }
+    else
+    {
+        string [] newArray = new string [count];
+        int count2 = 0;
+        for (int j=0; j<array.Length; j++)
+        {
+            if(array[j].Length <= 3)
+            {
+                newArray[count2] = array[j];
+                count2++;
+            }
+        }
+        return newArray; 
+    }
+    
+}
+
 Console.Write("Введите натуральное число, обозначающее количество слов, которые Вы введёте: ");
 int n = Convert.ToInt32(Console.ReadLine());
