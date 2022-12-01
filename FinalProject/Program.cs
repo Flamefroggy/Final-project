@@ -19,5 +19,13 @@ string[] CreateArray(int number)
     return startArray;
 }
 
+void ShowArray(string[] array)
+{
+    for(int i = 0; i < array.Length; i++)
+        Console.Write(array[i] + "  ");
+
+    Console.WriteLine();
+}
+
 Console.Write("Введите натуральное число, обозначающее количество слов, которые Вы введёте: ");
 int n = Convert.ToInt32(Console.ReadLine());
