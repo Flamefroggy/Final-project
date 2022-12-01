@@ -1,0 +1,15 @@
+D:\GeekBrains\Final\FinalProject\bin\Debug\net6.0\FinalProject.exe
+D:\GeekBrains\Final\FinalProject\bin\Debug\net6.0\FinalProject.deps.json
+D:\GeekBrains\Final\FinalProject\bin\Debug\net6.0\FinalProject.runtimeconfig.json
+D:\GeekBrains\Final\FinalProject\bin\Debug\net6.0\FinalProject.dll
+D:\GeekBrains\Final\FinalProject\bin\Debug\net6.0\FinalProject.pdb
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.csproj.AssemblyReference.cache
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.AssemblyInfoInputs.cache
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.AssemblyInfo.cs
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.csproj.CoreCompileInputs.cache
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.dll
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\refint\FinalProject.dll
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.pdb
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\FinalProject.genruntimeconfig.cache
+D:\GeekBrains\Final\FinalProject\obj\Debug\net6.0\ref\FinalProject.dll
